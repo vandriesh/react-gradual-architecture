@@ -1,0 +1,36 @@
+{
+  "name": "react-gradual-architecture",
+  "version": "1.0.0",
+  "description": "Incremental React architecture guidelines as an agent skill",
+  "main": "SKILL.md",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vandriesh/react-gradual-architecture.git"
+  },
+  "keywords": [
+    "react",
+    "architecture",
+    "agent-skill",
+    "cursor",
+    "ai",
+    "code-organization",
+    "best-practices",
+    "incremental",
+    "gradual"
+  ],
+  "author": "vandriesh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vandriesh/react-gradual-architecture/issues"
+  },
+  "homepage": "https://github.com/vandriesh/react-gradual-architecture#readme",
+  "files": [
+    "SKILL.md",
+    "README.md",
+    "AGENTS.md",
+    "LICENSE",
+    "rules/",
+    "examples/"
+  ]
+}
