@@ -1,6 +1,6 @@
 {
   "name": "react-gradual-architecture",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Incremental React architecture guidelines as an agent skill",
   "main": "SKILL.md",
   "type": "module",
