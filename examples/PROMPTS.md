@@ -8,7 +8,7 @@ This file contains example prompts demonstrating how to use the `react-gradual-a
 
 ```
 Create a new React app using Vite with TypeScript template.
-Follow react-gradual-architecture principles.
+Follow @react-gradual-architecture principles.
 ```
 
 **Expected behavior:**
@@ -21,7 +21,7 @@ Follow react-gradual-architecture principles.
 ```
 Create a new React app using Vite with TypeScript template.
 Add a simple todo list feature.
-Follow react-gradual-architecture principles:
+Follow @react-gradual-architecture principles:
 - Start in a single file
 - Extract only when needed
 ```
@@ -37,7 +37,7 @@ Follow react-gradual-architecture principles:
 ### Minimal Auth Feature
 
 ```
-Add authentication feature to my React app following react-gradual-architecture:
+Add authentication feature to my React app following @react-gradual-architecture:
 - Sign up, sign in, sign out
 - Protected routes
 - User session management
@@ -60,7 +60,7 @@ Add authentication to my React app with these requirements:
 - Automatic token refresh
 - Protected route wrapper component
 
-Follow react-gradual-architecture principles:
+Follow @react-gradual-architecture principles:
 - Start small in one file
 - Extract when scanning becomes difficult
 - Keep domain logic framework-agnostic
@@ -81,7 +81,7 @@ Follow react-gradual-architecture principles:
 ### General Refactor
 
 ```
-Refactor this component using react-gradual-architecture principles:
+Refactor this component using @react-gradual-architecture principles:
 - Extract when scanning becomes difficult
 - Separate UI from data logic
 - Keep types where data is born
@@ -100,7 +100,7 @@ Refactor this component using react-gradual-architecture principles:
 ### Specific Extraction
 
 ```
-This UserProfile component is 250 lines. Apply react-gradual-architecture:
+This UserProfile component is 250 lines. Apply @react-gradual-architecture:
 - Extract presentation components first
 - Then extract data fetching logic
 - Keep state local where possible
@@ -118,7 +118,7 @@ This UserProfile component is 250 lines. Apply react-gradual-architecture:
 ### Feature Organization
 
 ```
-My cart feature has grown. Help me organize it following react-gradual-architecture:
+My cart feature has grown. Help me organize it following @react-gradual-architecture:
 - Current: single Cart.tsx file (180 lines)
 - Organize files by concern
 - Keep locality principle
@@ -144,7 +144,7 @@ My cart feature has grown. Help me organize it following react-gradual-architect
 
 ```
 I have the same formatPrice function in Cart and Invoice features.
-Apply react-gradual-architecture reuse-boundaries rule to extract it properly.
+Apply @react-gradual-architecture reuse-boundaries rule to extract it properly.
 ```
 
 **Expected behavior:**
@@ -158,7 +158,7 @@ Apply react-gradual-architecture reuse-boundaries rule to extract it properly.
 ### Adding Data Fetching
 
 ```
-Add data fetching to this component following react-gradual-architecture:
+Add data fetching to this component following @react-gradual-architecture:
 - Keep API functions framework-agnostic
 - Use hooks for React state management
 - Define types where data is born
@@ -195,7 +195,7 @@ Optimize data fetching in this feature:
 
 ```
 This Card component has too many configuration props.
-Convert to composition following react-gradual-architecture principles.
+Convert to composition following @react-gradual-architecture principles.
 
 [paste Card component]
 ```
@@ -211,7 +211,7 @@ Convert to composition following react-gradual-architecture principles.
 ### Optimizing State Placement
 
 ```
-Review state placement in this feature following react-gradual-architecture:
+Review state placement in this feature following @react-gradual-architecture:
 - Keep state local where possible
 - Lift only as high as needed
 - Move state down to avoid re-renders
@@ -237,7 +237,7 @@ Build a complete product catalog feature for my e-commerce app:
 - Add to cart functionality
 - Search and sort
 
-Follow react-gradual-architecture from start to finish:
+Follow @react-gradual-architecture from start to finish:
 1. Start in a single file
 2. Extract incrementally as the feature grows
 3. Organize by feature, not by type
@@ -264,13 +264,13 @@ Follow react-gradual-architecture from start to finish:
 2. **Mention extraction triggers**: "extract when scanning becomes difficult" or "file exceeds 100 lines"
 3. **Request documentation**: "create feature README" ensures living documentation
 4. **Emphasize incremental approach**: "start in one file, extract when needed"
-5. **Reference the skill name**: Include "react-gradual-architecture" in your prompt
+5. **Reference the skill name**: Include "@react-gradual-architecture" in your prompt
 
 ## Common Patterns
 
 ### Starting New Features
 ```
-Create [feature name] following react-gradual-architecture:
+Create [feature name] following @react-gradual-architecture:
 - Start in a single file
 - Extract only when needed
 - [specific requirements]
@@ -278,7 +278,7 @@ Create [feature name] following react-gradual-architecture:
 
 ### Refactoring Existing Code
 ```
-Refactor this [component/feature] using react-gradual-architecture:
+Refactor this [component/feature] using @react-gradual-architecture:
 - Extract when scanning becomes difficult
 - [specific extraction goals]
 - [paste code]
@@ -286,7 +286,7 @@ Refactor this [component/feature] using react-gradual-architecture:
 
 ### Organizing Code
 ```
-Organize this [feature] following react-gradual-architecture:
+Organize this [feature] following @react-gradual-architecture:
 - Organize by feature, not type
 - Keep related files close
 - Create feature README
