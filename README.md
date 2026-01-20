@@ -31,11 +31,11 @@ Or manually add to your `.cursor/skills/` or equivalent directory.
 When working with AI coding assistants, use prompts like:
 
 ```
-Create a new React authentication feature following react-gradual-architecture principles
+Create a new React authentication feature following @react-gradual-architecture principles
 ```
 
 ```
-Refactor this component using react-gradual-architecture guidelines
+Refactor this component using @react-gradual-architecture guidelines
 ```
 
 The skill will guide the AI to:
@@ -78,9 +78,7 @@ The skill will guide the AI to:
 
 ## Compatibility
 
-- React 16.8+ (hooks required)
-- Next.js, Vite, Create React App, and other React frameworks
-- TypeScript or JavaScript projects
+- React
 - Works with Cursor, GitHub Copilot, and other AI coding assistants
 
 ## Examples
@@ -88,7 +86,7 @@ The skill will guide the AI to:
 ### Creating a new feature
 
 ```
-Create a user profile feature following react-gradual-architecture:
+Create a user profile feature following @react-gradual-architecture:
 - Start in a single file
 - Add display and edit functionality
 - Handle data fetching
@@ -99,7 +97,7 @@ The AI will create a single `UserProfile.tsx` file and only extract when the fil
 ### Refactoring existing code
 
 ```
-Refactor this 300-line component using react-gradual-architecture principles:
+Refactor this 300-line component using @react-gradual-architecture principles:
 - Extract when scanning (comprehending) becomes difficult
 - Separate UI from data logic
 - Keep types where data is born
@@ -132,5 +130,5 @@ Created by [@vandriesh](https://github.com/vandriesh)
 ## Resources
 
 - [Agent Skills Specification](https://agentskills.io/specification)
-- [React Documentation](https://react.dev)
-- [Next.js Documentation](https://nextjs.org/docs)
+- [Vercel Agent Skills](https://github.com/vercel-labs/agent-skills) - Inspired by Vercel's collection of agent skills
+
