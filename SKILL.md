@@ -39,6 +39,7 @@ Reference these guidelines when:
 ### 1. Foundation (CRITICAL)
 
 - `framework-conventions` - Follow framework conventions and keep domain code framework-agnostic
+- `framework-react-router` - Use `.server` suffix for server-only code (React Router / Remix)
 
 ### 2. Starting (CRITICAL)
 
@@ -64,7 +65,7 @@ Reference these guidelines when:
 
 ### 5. Data & State
 
-- `data-types-placement` - Define types where the data is born
+- `data-types-placement` - Define types where the data is born. **NEVER create separate `types.ts` files**
 - `state-placement` - Keep state local; lift only as high as needed
 
 ## Rules Reference
@@ -73,6 +74,7 @@ The guidelines are organized into focused rule files. Reference the specific rul
 
 ### Foundation
 - [`framework-conventions.md`](rules/framework-conventions.md) - Follow framework conventions and keep domain code framework-agnostic
+- [`framework-react-router.md`](rules/framework-react-router.md) - Use `.server` suffix for server-only code (React Router / Remix)
 
 ### Starting
 - [`start-small.md`](rules/start-small.md) - Begin features in a single file
